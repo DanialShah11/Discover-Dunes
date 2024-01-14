@@ -584,6 +584,24 @@ footer {
     border-top: 1px solid var(--dark);
 }
 
+.footer-bottom p {
+    padding: 10px 0px;
+}
+
+.footer-bottom p span {
+    color: #AF143E;
+}
+
+.footer-bottom h3:nth-child(1) {
+    padding: 10px 0;
+}
+
+.footer-bottom h3 a {
+    padding: 24px 0;
+    text-decoration: none;
+    color: #AF143E;
+}
+
 /*Footer End*/
 
 /* top button */
@@ -601,6 +619,10 @@ div #toTopBtn {
     padding: 10px;
     cursor: pointer;
     z-index: 10000;
+}
+
+div #toTopBtn:hover {
+    background-color: darkorange;
 }
 
 /* Start Break point */
